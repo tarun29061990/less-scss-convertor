@@ -10,5 +10,21 @@
   "license": "ISC",
   "engines": {
     "node": "*"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tarun29061990/less-scss-convertor.git"
+  },
+  "keywords": [
+    "less",
+    "scss",
+    "convertor"
+  ],
+  "bugs": {
+    "url": "https://github.com/tarun29061990/less-scss-convertor/issues"
+  },
+  "homepage": "http://www.curioustechie.in"
 }
