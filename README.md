@@ -1,10 +1,10 @@
 less-scss-convertor
-===================
+-------------------
 
 This npm package will convert all your less files to scss.
 
 Installation
-=============
+-------------
 
 Install it via npm:-
 
@@ -12,7 +12,7 @@ Install it via npm:-
 npm install -g less-scss-convertor
 ```
 Usage
-======
+------
 Go to the folder where you have less files, and run the below command in the terminal.
 ```sh
 >less-scss-convertor filename1,filename2,filename3
@@ -29,7 +29,7 @@ It will store all the files in the scss folder inside the current directory. It 
 >less-scss-convertor directory1,directory2
 ```
 Further Usage
-==============
+-------------
 Now the awesome usage which is multiple files inside different directory. It can handle this case also pretty well. In this case run the below command.
 ```sh
 >less-scss-convertor directory1/file1,directory2/file2
@@ -37,9 +37,8 @@ Now the awesome usage which is multiple files inside different directory. It can
 It will convert the file and store it in directory1/scss/file1.scss and directory2/scss/file2.scss respectively.
 
 Licence
-=======
+--------
 Copyright (c) 2014, Tarun Chaudhary (http://curioustechie.in)
-
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
