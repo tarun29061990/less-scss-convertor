@@ -1,10 +1,10 @@
 {
   "name": "less-scss-convertor",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "description": "It converts all your less files to scss",
   "main": "./lib/server",
   "bin": {
-    "less-scss-convertor": "./bin/less-scss-convert"
+    "less-scss-convertor": "./bin/less-scss-convertor"
   },
   "author": "Tarun Chaudhary",
   "license": "ISC",
