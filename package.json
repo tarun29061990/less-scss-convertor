@@ -1,6 +1,6 @@
 {
   "name": "less-scss-convertor",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "It converts all your less files to scss",
   "main": "./lib/server",
   "bin": {
