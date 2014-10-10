@@ -36,6 +36,15 @@ Now the awesome usage which is multiple files inside different directory. It can
 ```
 It will convert the file and store it in directory1/scss/file1.scss and directory2/scss/file2.scss respectively.
 
+Extended Functionality
+-----------------------
+If you want to replace the existing file instead of creating new files then you can do that also.
+
+```sh
+>less-scss-convertor filename1,filename2 replace
+```
+You have to add an extra commanline parameter replace for the same and it will replace the existing file.
+
 Licence
 --------
 Copyright (c) 2014, Tarun Chaudhary (http://curioustechie.in)
