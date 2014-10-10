@@ -45,6 +45,27 @@ If you want to replace the existing file instead of creating new files then you 
 ```
 You have to add an extra commanline parameter replace for the same and it will replace the existing file.
 
+Probable Errors
+----------------
+You can find this below error sometimes. This error is because your folder don't have the permissions. Try run chmod at the folder.(In the below case the folder is 'skins/default/scss'. So to fix it we have to run **chmod skins/default/scss**)
+
+```sh
+Error: EEXIST, file already exists 'skins/default/scss/'
+    at Object.fs.mkdirSync (fs.js:642:18)
+```
+
+Another error you can face when you will run
+```sh
+>less-scss-convertor directory
+```
+which is
+```sh
+Error: EISDIR, illegal operation on a directory
+    at Object.fs.readSync (fs.js:476:19)
+    at Object.fs.readFileSync (fs.js:310:28)
+```
+This error is because there is some other directory in the specified directory. Please make sure when you are putting the directory name there should be no other directory inside it.
+
 Licence
 --------
 Copyright (c) 2014, Tarun Chaudhary (http://curioustechie.in)
