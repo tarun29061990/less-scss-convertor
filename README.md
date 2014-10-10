@@ -47,7 +47,7 @@ You have to add an extra commanline parameter replace for the same and it will r
 
 Probable Errors
 ----------------
-You can find this below error sometimes. This error is because your folder don't have the permissions. Try run chmod at the folder.(In the below case the folder is 'skins/default/scss'. So to fix it we have to run **chmod skins/default/scss**)
+You can find this below error sometimes. This error is because your folder don't have the permissions. Try run chmod at the folder.(In the below case the folder is 'skins/default/scss'. So to fix it we have to run **chmod 777 skins/default/scss**)
 
 ```sh
 Error: EEXIST, file already exists 'skins/default/scss/'
