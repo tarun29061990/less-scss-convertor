@@ -68,4 +68,4 @@ This error is because there is some other directory in the specified directory. 
 
 Licence
 --------
-This is licensed under : The Apache Software License, Version 2.0. Here is a copy of the license (http://www.apache.org/licenses/LICENSE-2.0.txt)
+less-scss-convertor is licensed under : The Apache Software License, Version 2.0. Here is a copy of the license (http://www.apache.org/licenses/LICENSE-2.0.txt)
